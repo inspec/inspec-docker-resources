@@ -2,7 +2,7 @@
 # Copyright 2017, Christoph Hartmann
 #
 
-module Inspec::Resources::DockerObject
+module DockerObject
   def exist?
     object_info.exists?
   end
