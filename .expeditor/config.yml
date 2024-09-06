@@ -3,6 +3,12 @@ slack:
   notify_channel:
     - inspec-notify
 
+pipelines:
+ - verify:
+      definition: .expeditor/verify.pipeline.yml
+      description: Keeping the verify pipeline alive to preserve the history
+      public: true
+
 github:
   delete_branch_on_merge: true
   minor_bump_labels:
