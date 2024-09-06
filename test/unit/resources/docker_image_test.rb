@@ -1,3 +1,4 @@
+require 'helper'
 require_relative "../../../lib/inspec-docker-resources/resources/docker_image"
 
 class DockerImageTest < Minitest::Test

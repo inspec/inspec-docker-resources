@@ -1,5 +1,5 @@
 require "helper"
-require "inspec-docker-resources/resources/docker_container"
+require_relative "../../../lib/inspec-docker-resources/resources/docker_container"
 
 class DockerContainerTest < Minitest::Test
   def setup
