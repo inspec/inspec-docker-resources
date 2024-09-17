@@ -3,7 +3,8 @@ gem "inspec-bin", git: "https://github.com/inspec/inspec", branch: "team/gem-bas
 gem "inspec", git: "https://github.com/inspec/inspec", branch: "team/gem-based-resource-packs"
 
 group :test do
-  gem 'rubocop'
   gem "mocha"
   gem "minitest"
+  gem "mocha"
+  gem "chefstyle"
 end

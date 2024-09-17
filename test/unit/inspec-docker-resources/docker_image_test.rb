@@ -1,4 +1,4 @@
-require 'helper'
+require "helper"
 require_relative "../../../lib/inspec-docker-resources/resources/docker_image"
 
 class DockerImageTest < Minitest::Test
@@ -15,7 +15,7 @@ class DockerImageTest < Minitest::Test
     @mock_images.stubs(:where).returns(@filter_object)
   end
 
-  def test_docker_image_returns_repo_and_tag    
+  def test_docker_image_returns_repo_and_tag
     @resource = DockerImage.new("alpine:latest")
     @resource.stubs(:inspec).returns(@mock_inspec)
     assert_equal "alpine:latest", @resource.image, "Expected image returns alpine:latest"

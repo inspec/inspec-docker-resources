@@ -1,4 +1,4 @@
-require 'helper'
+require "helper"
 require_relative "../../../lib/inspec-docker-resources/resources/docker_service"
 
 class DockerServiceTest < Minitest::Test
@@ -7,7 +7,7 @@ class DockerServiceTest < Minitest::Test
     @mock_docker = mock("docker")
     @mock_services = mock("services")
 
-    @service_data = {"id" => "2ghswegspre1", "name" => "service1", "mode" => "replicated", "replicas" => "3/3", "image" => "foo/image:1.0", "ports" => "*:1234->1234/tcp"}
+    @service_data = { "id" => "2ghswegspre1", "name" => "service1", "mode" => "replicated", "replicas" => "3/3", "image" => "foo/image:1.0", "ports" => "*:1234->1234/tcp" }
 
     @filter_object = DockerServiceFilter.new([@service_data])
     @mock_inspec.stubs(:docker).returns(@mock_docker)
