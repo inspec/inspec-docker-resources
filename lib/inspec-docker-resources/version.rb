@@ -2,8 +2,7 @@
 # the version stamp, and provide a clean way for the gemspec
 # to learn the current version.
 module InspecPlugins
-    module DockerResources
-        VERSION = "0.3.3".freeze
-    end
+  module DockerResources
+    VERSION = "0.3.3".freeze
+  end
 end
-  

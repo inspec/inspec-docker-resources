@@ -28,7 +28,6 @@ module InspecPlugins
       # Internal machine name of the plugin. InSpec will use this in errors, etc.
       plugin_name :"inspec-docker-resources"
 
-
       # Define a new Resource Pack.
       resource_pack :"inspec-docker-resources" do
         # This file will load the resources implicitly via the superclass

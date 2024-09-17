@@ -1,21 +1,21 @@
-require 'rake/testtask'
-require 'rubocop/rake_task'
+require "rake/testtask"
+require "rubocop/rake_task"
 
-desc 'Run Rubocop lint checks'
-task :rubocop do
-  RuboCop::RakeTask.new
+begin
+  require "chefstyle"
+  require "rubocop/rake_task"
+  desc "Run Chefstyle tests"
+  RuboCop::RakeTask.new(:style) do |task|
+    task.options += %w{ --display-cop-names --no-color }
+  end
+rescue LoadError
+  puts "chefstyle gem is not installed. bundle install first to make sure all dependencies are installed."
 end
 
-desc 'Run robocop linter'
-task lint: [:rubocop]
-
-Rake::TestTask.new do |t|
-  t.libs << 'lib'
-  t.libs << File.join('test', 'unit')
+Rake::TestTask.new(:test) do |t|
+  t.libs << "lib"
+  t.libs << File.join("test", "unit")
   t.warning = false
   t.verbose = true
-  t.pattern = File.join('test', 'unit', '**', '*_test.rb')
-end
-
-namespace :test do
+  t.pattern = File.join("test", "**", "*_test.rb")
 end
