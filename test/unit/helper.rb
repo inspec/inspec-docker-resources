@@ -1,9 +1,11 @@
-require "minitest/autorun"
-require "minitest/unit"
-require "minitest/pride"
-require "inspec/resource"
-require "mocha/minitest"
+# frozen_string_literal: true
 
-class Minitest::Test
-  def setup; end
+require "minitest/autorun"
+
+module Minitest
+  class Test
+    def setup
+      # TODO: Setup logic
+    end
+  end
 end
