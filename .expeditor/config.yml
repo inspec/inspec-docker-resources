@@ -6,6 +6,11 @@ slack:
   notify_channel:
     - inspec-notify
 
+# https://expeditor.chef.io/docs/integrations/rubygems/
+rubygems:
+  - inspec-docker-resources:
+      gemspec_path: .
+
 pipelines:
  - verify:
       definition: .expeditor/verify.pipeline.yml
