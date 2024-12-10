@@ -6,6 +6,10 @@ slack:
   notify_channel:
     - inspec-notify
 
+rubygems:
+  - inspec-docker-resources:
+      gemspec_path: .
+
 pipelines:
  - verify:
       definition: .expeditor/verify.pipeline.yml
@@ -31,3 +35,9 @@ subscriptions:
         ignore_labels:
           - "Expeditor: Skip All"
           - "Expeditor: Skip Changelog"
+    - built_in:build_gem:
+        only_if: built_in:bump_version
+  - workload: project_promoted:{{agent_id}}:*
+    actions:
+      - built_in:rollover_changelog
+      - built_in:publish_rubygems
