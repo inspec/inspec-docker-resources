@@ -19,3 +19,5 @@ Rake::TestTask.new(:test) do |t|
   t.verbose = true
   t.pattern = File.join("test", "**", "*_test.rb")
 end
+
+task default: %i{style test}
