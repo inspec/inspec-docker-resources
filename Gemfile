@@ -7,4 +7,6 @@ group :test do
   gem "minitest"
   gem "mocha"
   gem "chefstyle"
+  gem "simplecov"
+  gem "simplecov_json_formatter"
 end
