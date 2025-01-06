@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 0.3.7 -->
-## [0.3.7](https://github.com/inspec/inspec-docker-resources/tree/0.3.7) (2024-12-20)
+<!-- latest_release 0.3.8 -->
+## [0.3.8](https://github.com/inspec/inspec-docker-resources/tree/0.3.8) (2025-01-06)
 
 #### Merged Pull Requests
-- CHEF-18211-Export test results to sonar [#20](https://github.com/inspec/inspec-docker-resources/pull/20) ([balasubramanian-s](https://github.com/balasubramanian-s))
+- Adds dependabot configuration [#16](https://github.com/inspec/inspec-docker-resources/pull/16) ([Vasu1105](https://github.com/Vasu1105))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- Adds dependabot configuration [#16](https://github.com/inspec/inspec-docker-resources/pull/16) ([Vasu1105](https://github.com/Vasu1105)) <!-- 0.3.8 -->
 - CHEF-18211-Export test results to sonar [#20](https://github.com/inspec/inspec-docker-resources/pull/20) ([balasubramanian-s](https://github.com/balasubramanian-s)) <!-- 0.3.7 -->
 - CHEF-17304-Enable coverage pipelines [#19](https://github.com/inspec/inspec-docker-resources/pull/19) ([balasubramanian-s](https://github.com/balasubramanian-s)) <!-- 0.3.6 -->
 -  CHEF-17876-Expeditor Configuration: Automate Gem Push to Public Repository [#17](https://github.com/inspec/inspec-docker-resources/pull/17) ([sa-progress](https://github.com/sa-progress)) <!-- 0.3.5 -->
