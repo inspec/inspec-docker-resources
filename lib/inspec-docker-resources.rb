@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 # This file is known as the "entry point."
 # This is the file InSpec will try to load if it
 # thinks your plugin is installed.

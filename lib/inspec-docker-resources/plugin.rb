@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 # Plugin Definition file
 # The purpose of this file is to declare to InSpec what plugin_types (capabilities)
 # are included in this plugin, and provide activator that will load them as needed.

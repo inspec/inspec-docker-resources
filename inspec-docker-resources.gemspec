@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["InSpec Core Maintainers"]
   spec.email         = ["inspec@progress.com"]
   spec.summary       = "Docker InSpec Resources in a Gem"
-  spec.description   = "Contains InSpec 7.0+ resources fo interacting with Docker Desktop."
+  spec.description   = "Contains InSpec 7.0+ resources fo interacting with Docker Resources."
   spec.homepage      = "https://github.com/inspec/inspec-docker-resources"
   spec.license       = "Apache-2.0"
 
@@ -31,6 +31,8 @@ Gem::Specification.new do |spec|
     "lib/**/*", File::FNM_DOTMATCH
   ).reject { |f| File.directory?(f) }
   spec.require_paths = ["lib"]
+
+  spec.required_ruby_version = ">= 3.4.2"
 
   # If you rely on any other gems, list them here with any constraints.
   # This is how `inspec plugin install` is able to manage your dependencies.

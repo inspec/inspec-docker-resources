@@ -1,30 +1,15 @@
 ---
-
-product_key: inspec-docker-resources
-
 slack:
   notify_channel:
     - inspec-notify
 
-rubygems:
-  - inspec-docker-resources:
-      gemspec_path: .
-
 pipelines:
  - verify:
       definition: .expeditor/verify.pipeline.yml
-      description: Keeping the verify pipeline alive to preserve the history
- - coverage:
-      description: Unit test coverage
-      public: false
-      # Private due to use of tokens
-      trigger: pull_request
-      env:
-      - LANG: "C.UTF-8"
-      - SLOW: 1
-      - NO_AWS: 1
-      - MT_CPU: 5
-      - ARTIFACTORY_BASE_URL: https://artifactory-internal.ps.chef.co
+      description: Executes the verify pipeline for Resource packs
+rubygems:
+  - inspec-docker-resources:
+      gemspec_path: .
 
 github:
   delete_branch_on_merge: true
