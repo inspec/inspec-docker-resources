@@ -1,0 +1,6 @@
+AllCops:
+  Exclude:
+    - 'test/integration/controls/**/*.rb'
+    - 'test/fixtures/*'
+Layout/ArgumentAlignment:
+  EnforcedStyle: with_first_argument
