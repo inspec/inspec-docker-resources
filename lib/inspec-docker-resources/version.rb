@@ -3,6 +3,6 @@
 # to learn the current version.
 module InspecPlugins
   module DockerResources
-    VERSION = "0.3.8".freeze
+    VERSION = "0.3.9".freeze
   end
 end

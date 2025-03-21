@@ -5,6 +5,6 @@ copyright: Progress Software Corporation
 copyright_email: inspec@progress.com
 license: Apache-2.0
 summary: Docker InSpec Resources in a Gem
-version: 0.3.8
+version: 0.3.9
 supports:
   platform: os
