@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 0.3.9 -->
-## [0.3.9](https://github.com/inspec/inspec-docker-resources/tree/0.3.9) (2025-03-21)
+<!-- latest_release 7.0.0 -->
+## [7.0.0](https://github.com/inspec/inspec-docker-resources/tree/7.0.0) (2025-04-01)
 
 #### Merged Pull Requests
-- dep: add gemspec dependency in our Gemfile [#23](https://github.com/inspec/inspec-docker-resources/pull/23) ([ahasunos](https://github.com/ahasunos))
+- CHEF-18512: Sync version with InSpec major version [#26](https://github.com/inspec/inspec-docker-resources/pull/26) ([ahasunos](https://github.com/ahasunos))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- CHEF-18512: Sync version with InSpec major version [#26](https://github.com/inspec/inspec-docker-resources/pull/26) ([ahasunos](https://github.com/ahasunos)) <!-- 7.0.0 -->
 - dep: add gemspec dependency in our Gemfile [#23](https://github.com/inspec/inspec-docker-resources/pull/23) ([ahasunos](https://github.com/ahasunos)) <!-- 0.3.9 -->
 - Adds dependabot configuration [#16](https://github.com/inspec/inspec-docker-resources/pull/16) ([Vasu1105](https://github.com/Vasu1105)) <!-- 0.3.8 -->
 - CHEF-18211-Export test results to sonar [#20](https://github.com/inspec/inspec-docker-resources/pull/20) ([balasubramanian-s](https://github.com/balasubramanian-s)) <!-- 0.3.7 -->
