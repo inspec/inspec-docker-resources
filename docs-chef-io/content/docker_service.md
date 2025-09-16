@@ -1,8 +1,7 @@
 +++
 title = "docker_service resource"
 draft = false
-gh_repo = "inspec-docker-resources"
-platform = "docker"
+
 
 [menu.docker]
     title = "docker_service"

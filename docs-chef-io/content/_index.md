@@ -1,10 +1,12 @@
 +++
-title = "About Chef InSpec Docker resources"
-platform = "docker"
+title = "About the Chef InSpec Docker resource pack"
 draft = false
-gh_repo = "inspec-docker-resources"
-linkTitle = "Docker resources"
+linkTitle = "Docker resource pack"
 summary = "Chef InSpec resources for auditing Docker"
+
+[cascade]
+  [cascade.params]
+    platform = "docker"
 
 [menu.docker]
 title = "About resources"
@@ -12,7 +14,7 @@ identifier = "inspec/resources/docker/about"
 parent = "inspec/resources/docker"
 +++
 
-This resource pack allows you to audit Docker environments, including containers, images, services, and plugins.
+The Chef InSpec Docker resource pack allows you to audit Docker environments, including containers, images, services, and plugins.
 
 ## Support
 
@@ -25,7 +27,7 @@ To add this resource pack to an InSpec profile, add the `inspec-docker-resources
 
 ```yaml
 depends:
- - name: inspec-docker-resources
+  - name: inspec-docker-resources
     gem: inspec-docker-resources
 ```
 
