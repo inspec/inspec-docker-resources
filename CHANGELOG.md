@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 7.1.0 -->
-## [7.1.0](https://github.com/inspec/inspec-docker-resources/tree/7.1.0) (2025-04-16)
+<!-- latest_release 7.1.1 -->
+## [7.1.1](https://github.com/inspec/inspec-docker-resources/tree/7.1.1) (2025-09-16)
 
 #### Merged Pull Requests
-- CHEF-18375: Add support for the resource pack with ruby 3.4.2 [#22](https://github.com/inspec/inspec-docker-resources/pull/22) ([ahasunos](https://github.com/ahasunos))
+- Reorganize docker resource docs [#28](https://github.com/inspec/inspec-docker-resources/pull/28) ([IanMadd](https://github.com/IanMadd))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- Reorganize docker resource docs [#28](https://github.com/inspec/inspec-docker-resources/pull/28) ([IanMadd](https://github.com/IanMadd)) <!-- 7.1.1 -->
 - CHEF-18375: Add support for the resource pack with ruby 3.4.2 [#22](https://github.com/inspec/inspec-docker-resources/pull/22) ([ahasunos](https://github.com/ahasunos)) <!-- 7.1.0 -->
 - CHEF-18512: Sync version with InSpec major version [#26](https://github.com/inspec/inspec-docker-resources/pull/26) ([ahasunos](https://github.com/ahasunos)) <!-- 7.0.0 -->
 - dep: add gemspec dependency in our Gemfile [#23](https://github.com/inspec/inspec-docker-resources/pull/23) ([ahasunos](https://github.com/ahasunos)) <!-- 0.3.9 -->
