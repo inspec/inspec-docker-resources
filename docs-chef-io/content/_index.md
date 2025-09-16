@@ -9,9 +9,10 @@ summary = "Chef InSpec resources for auditing Docker"
     platform = "docker"
 
 [menu.docker]
-title = "About resources"
+title = "About Docker resources"
 identifier = "inspec/resources/docker/about"
 parent = "inspec/resources/docker"
+weight = 10
 +++
 
 The Chef InSpec Docker resource pack allows you to audit Docker environments, including containers, images, services, and plugins.
