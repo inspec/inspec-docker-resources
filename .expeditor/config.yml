@@ -10,7 +10,6 @@ pipelines:
   - verify:
       definition: .expeditor/verify.pipeline.yml
       description: Keeping the verify pipeline alive to preserve the history
-      public: true
   - coverage:
       description: Unit test coverage
       public: true
