@@ -32,7 +32,6 @@ module InspecPlugins
       resource_pack :"inspec-docker-resources" do
         # This file will load the resources implicitly via the superclass
         require "inspec-docker-resources/resource_pack"
-
         # Having loaded our functionality, return a class that represents the plugin.
         # Reserved for future use.
         InspecPlugins::DockerResources::ResourcePack
