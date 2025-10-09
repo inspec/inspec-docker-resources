@@ -7,11 +7,11 @@ rubygems:
   - inspec-docker-resources
 
 pipelines:
- - verify:
+  - verify:
       definition: .expeditor/verify.pipeline.yml
       description: Keeping the verify pipeline alive to preserve the history
       public: true
- - coverage:
+  - coverage:
       description: Unit test coverage
       public: true
 
@@ -23,24 +23,24 @@ github:
     - "Expeditor: Bump Major Version"
 
 release_branches:
-  - main
+  - main:
       version_constraint: 7.*
 
 subscriptions:
   - workload: pull_request_merged:{{github_repo}}:{{release_branch}}:*
     actions:
-    - built_in:bump_version:
-        ignore_labels:
-          - "Expeditor: Skip Version Bump"
-          - "Expeditor: Skip All"
-    - bash:.expeditor/update_version.sh:
-        only_if: built_in:bump_version
-    - built_in:update_changelog:
-        ignore_labels:
-          - "Expeditor: Skip All"
-          - "Expeditor: Skip Changelog"
-    - built_in:build_gem:
-        only_if: built_in:bump_version
+      - built_in:bump_version:
+          ignore_labels:
+            - "Expeditor: Skip Version Bump"
+            - "Expeditor: Skip All"
+      - bash:.expeditor/update_version.sh:
+          only_if: built_in:bump_version
+      - built_in:update_changelog:
+          ignore_labels:
+            - "Expeditor: Skip All"
+            - "Expeditor: Skip Changelog"
+      - built_in:build_gem:
+          only_if: built_in:bump_version
   - workload: project_promoted:{{agent_id}}:*
     actions:
       - built_in:rollover_changelog
