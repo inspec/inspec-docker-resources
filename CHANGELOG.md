@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 7.1.2 -->
-## [7.1.2](https://github.com/inspec/inspec-docker-resources/tree/7.1.2) (2025-09-16)
+<!-- latest_release 7.1.3 -->
+## [7.1.3](https://github.com/inspec/inspec-docker-resources/tree/7.1.3) (2025-10-09)
 
 #### Merged Pull Requests
-- Fix docs menu [#29](https://github.com/inspec/inspec-docker-resources/pull/29) ([IanMadd](https://github.com/IanMadd))
+- Expeditor changes to try public pipelines and solve promotion issues [#30](https://github.com/inspec/inspec-docker-resources/pull/30) ([Nik08](https://github.com/Nik08))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- Expeditor changes to try public pipelines and solve promotion issues [#30](https://github.com/inspec/inspec-docker-resources/pull/30) ([Nik08](https://github.com/Nik08)) <!-- 7.1.3 -->
 - Fix docs menu [#29](https://github.com/inspec/inspec-docker-resources/pull/29) ([IanMadd](https://github.com/IanMadd)) <!-- 7.1.2 -->
 - Reorganize docker resource docs [#28](https://github.com/inspec/inspec-docker-resources/pull/28) ([IanMadd](https://github.com/IanMadd)) <!-- 7.1.1 -->
 - CHEF-18375: Add support for the resource pack with ruby 3.4.2 [#22](https://github.com/inspec/inspec-docker-resources/pull/22) ([ahasunos](https://github.com/ahasunos)) <!-- 7.1.0 -->
