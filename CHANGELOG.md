@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 7.1.4 -->
-## [7.1.4](https://github.com/inspec/inspec-docker-resources/tree/7.1.4) (2025-10-09)
+<!-- latest_release 7.1.5 -->
+## [7.1.5](https://github.com/inspec/inspec-docker-resources/tree/7.1.5) (2025-10-09)
 
 #### Merged Pull Requests
-- Expeditor: Removing public true flag for verify pipelines [#31](https://github.com/inspec/inspec-docker-resources/pull/31) ([Nik08](https://github.com/Nik08))
+- Revert public pipelines [#33](https://github.com/inspec/inspec-docker-resources/pull/33) ([Nik08](https://github.com/Nik08))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- Revert public pipelines [#33](https://github.com/inspec/inspec-docker-resources/pull/33) ([Nik08](https://github.com/Nik08)) <!-- 7.1.5 -->
 - Expeditor: Removing public true flag for verify pipelines [#31](https://github.com/inspec/inspec-docker-resources/pull/31) ([Nik08](https://github.com/Nik08)) <!-- 7.1.4 -->
 - Expeditor changes to try public pipelines and solve promotion issues [#30](https://github.com/inspec/inspec-docker-resources/pull/30) ([Nik08](https://github.com/Nik08)) <!-- 7.1.3 -->
 - Fix docs menu [#29](https://github.com/inspec/inspec-docker-resources/pull/29) ([IanMadd](https://github.com/IanMadd)) <!-- 7.1.2 -->
