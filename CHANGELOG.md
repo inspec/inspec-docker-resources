@@ -1,9 +1,17 @@
 # Changelog
 
-<!-- latest_release -->
+<!-- latest_release 7.1.6 -->
+## [7.1.6](https://github.com/inspec/inspec-docker-resources/tree/7.1.6) (2026-04-17)
+
+#### Merged Pull Requests
+- CHEF-27099 - Create CODE_OF_CONDUCT.md file [#36](https://github.com/inspec/inspec-docker-resources/pull/36) ([cgunasree08](https://github.com/cgunasree08))
 <!-- latest_release -->
 
-<!-- release_rollup -->
+<!-- release_rollup since=7.1.5 -->
+### Changes since 7.1.5 release
+
+#### Merged Pull Requests
+- CHEF-27099 - Create CODE_OF_CONDUCT.md file [#36](https://github.com/inspec/inspec-docker-resources/pull/36) ([cgunasree08](https://github.com/cgunasree08)) <!-- 7.1.6 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
