@@ -1,22 +1,20 @@
 # Changelog
 
-<!-- latest_release 7.1.8 -->
-## [7.1.8](https://github.com/inspec/inspec-docker-resources/tree/7.1.8) (2026-04-27)
-
-#### Merged Pull Requests
-- Added config for private rubygem server [#43](https://github.com/inspec/inspec-docker-resources/pull/43) ([Nik08](https://github.com/Nik08))
+<!-- latest_release -->
 <!-- latest_release -->
 
-<!-- release_rollup since=7.1.5 -->
-### Changes since 7.1.5 release
-
-#### Merged Pull Requests
-- Added config for private rubygem server [#43](https://github.com/inspec/inspec-docker-resources/pull/43) ([Nik08](https://github.com/Nik08)) <!-- 7.1.8 -->
-- Remove minitest/unit require incompatible with Minitest 6 [#42](https://github.com/inspec/inspec-docker-resources/pull/42) ([Nik08](https://github.com/Nik08)) <!-- 7.1.7 -->
-- CHEF-27099 - Create CODE_OF_CONDUCT.md file [#36](https://github.com/inspec/inspec-docker-resources/pull/36) ([cgunasree08](https://github.com/cgunasree08)) <!-- 7.1.6 -->
+<!-- release_rollup -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [7.1.8](https://github.com/inspec/inspec-docker-resources/tree/7.1.8) (2026-04-27)
+
+#### Merged Pull Requests
+- CHEF-27099 - Create CODE_OF_CONDUCT.md file [#36](https://github.com/inspec/inspec-docker-resources/pull/36) ([cgunasree08](https://github.com/cgunasree08))
+- Remove minitest/unit require incompatible with Minitest 6 [#42](https://github.com/inspec/inspec-docker-resources/pull/42) ([Nik08](https://github.com/Nik08))
+- Added config for private rubygem server [#43](https://github.com/inspec/inspec-docker-resources/pull/43) ([Nik08](https://github.com/Nik08))
+<!-- latest_stable_release -->
+
 ## [7.1.5](https://github.com/inspec/inspec-docker-resources/tree/7.1.5) (2025-10-09)
 
 #### Merged Pull Requests
@@ -37,7 +35,6 @@
 - Expeditor changes to try public pipelines and solve promotion issues [#30](https://github.com/inspec/inspec-docker-resources/pull/30) ([Nik08](https://github.com/Nik08))
 - Expeditor: Removing public true flag for verify pipelines [#31](https://github.com/inspec/inspec-docker-resources/pull/31) ([Nik08](https://github.com/Nik08))
 - Revert public pipelines [#33](https://github.com/inspec/inspec-docker-resources/pull/33) ([Nik08](https://github.com/Nik08))
-<!-- latest_stable_release -->
 
 
 
