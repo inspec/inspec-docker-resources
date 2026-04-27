@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 7.1.7 -->
-## [7.1.7](https://github.com/inspec/inspec-docker-resources/tree/7.1.7) (2026-04-27)
+<!-- latest_release 7.1.8 -->
+## [7.1.8](https://github.com/inspec/inspec-docker-resources/tree/7.1.8) (2026-04-27)
 
 #### Merged Pull Requests
-- Remove minitest/unit require incompatible with Minitest 6 [#42](https://github.com/inspec/inspec-docker-resources/pull/42) ([Nik08](https://github.com/Nik08))
+- Added config for private rubygem server [#43](https://github.com/inspec/inspec-docker-resources/pull/43) ([Nik08](https://github.com/Nik08))
 <!-- latest_release -->
 
 <!-- release_rollup since=7.1.5 -->
 ### Changes since 7.1.5 release
 
 #### Merged Pull Requests
+- Added config for private rubygem server [#43](https://github.com/inspec/inspec-docker-resources/pull/43) ([Nik08](https://github.com/Nik08)) <!-- 7.1.8 -->
 - Remove minitest/unit require incompatible with Minitest 6 [#42](https://github.com/inspec/inspec-docker-resources/pull/42) ([Nik08](https://github.com/Nik08)) <!-- 7.1.7 -->
 - CHEF-27099 - Create CODE_OF_CONDUCT.md file [#36](https://github.com/inspec/inspec-docker-resources/pull/36) ([cgunasree08](https://github.com/cgunasree08)) <!-- 7.1.6 -->
 <!-- release_rollup -->
