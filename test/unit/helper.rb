@@ -7,7 +7,6 @@ if ENV["CI_ENABLE_COVERAGE"]
   end
 end
 require "minitest/autorun"
-require "minitest/unit"
 require "minitest/pride"
 require "inspec/resource"
 require "mocha/minitest"
