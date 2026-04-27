@@ -4,6 +4,6 @@
 # to learn the current version.
 module InspecPlugins
   module DockerResources
-    VERSION = "7.1.6"
+    VERSION = "7.1.7"
   end
 end
