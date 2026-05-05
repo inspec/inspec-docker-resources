@@ -14,3 +14,6 @@ depends:
     gem: inspec-docker-resources
 ```
 
+# Copyright
+
+See [COPYRIGHT.md](./COPYRIGHT.md).
